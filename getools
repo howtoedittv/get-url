@@ -35,7 +35,7 @@ else
     exit 1
 fi
 echo "done with tools now installing scala sbt and java 11"
-
+sleep 2
 curl -s "https://get.sdkman.io" | bash
 source "/home/$USER/.sdkman/bin/sdkman-init.sh"
 sdk install scala && sdk install sbt && sdk install java 11.0.23-tem && sdk use java 11.0.23-tem
