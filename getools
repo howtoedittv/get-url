@@ -1,0 +1,47 @@
+#!/usr/bin/env bash
+
+# Detect distro and install the tools (wget, clang, llvm, make, gcc, unzip, curl, scala, sbt, java 11 and other distro specific needs)
+
+if command -v pacman &>/dev/null; then
+    echo "Detected Arch-based system."
+    sudo pacman -Sy --needed base-devel gcc make clang llvm wget uznip curl 
+
+elif command -v apt &>/dev/null; then
+    echo "Detected Debian/Ubuntu-based system."
+    sudo apt update
+    sudo apt install -y gcc build-essential clang llvm wget make unzip curl 
+
+elif command -v dnf &>/dev/null; then
+    echo "Detected Fedora-based system."
+    sudo dnf install -y @development-tools make gcc llvm clang wget unzip curl 
+
+elif command -v zypper &>/dev/null; then
+    echo "Detected openSUSE-based system."
+    sudo zypper refresh
+    sudo zypper install -y glibc-devel gcc make llvm clang wget unzip curl 
+
+elif command -v xbps-install &>/dev/null; then
+    echo "Detected Void Linux."
+    sudo xbps-install -Sy base-devel gcc make clang llvm wget unzip curl 
+
+elif command -v emerge &>/dev/null; then
+    echo "Detected Gentoo."
+    sudo emerge --ask sys-devel/gcc sys-devel/make sys-libs/glibc sys-devel/pkgconfig wget unzip curl 
+    sudo emerge -av --getbinpkg sys-devel/llvm sys-devel/clang
+
+else
+    echo "Unsupported Linux distribution."
+    echo "Please install Alacritty manually."
+    exit 1
+fi
+echo "done with tools now installing scala sbt and java 11"
+
+curl -s "https://get.sdkman.io" | bash
+source "/home/$USER/.sdkman/bin/sdkman-init.sh"
+sdk install scala && sdk install sbt && sdk install java 11.0.23-tem && sdk use java 11.0.23-tem
+
+sleep 4
+
+echo "done now you can run either "scala on get-url.scala" if you want to verifey that it works or just sudo make install to install it to user"
+
+

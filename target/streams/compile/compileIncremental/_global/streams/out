@@ -1,0 +1,20 @@
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 0 products, 0 sources, 0 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/get-url.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(${BASE}/get-url.scala), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0mFull compilation, no sources in previous analysis.[0m
+[0m[[0m[0mdebug[0m] [0m[0mall 1 sources are invalidated[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: [0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all sources: number of invalidated sources > 50.0 percent of all sources[0m
+[0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 1[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/barry/get-url/target/scala-2.13/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mReturning already retrieved and compiled bridge: /home/barry/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala2-sbt-bridge/2.13.12/scala2-sbt-bridge-2.13.12.jar.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 497ad11a for Scala compiler version 2.13.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Xplugin:/home/barry/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-native/nscplugin_2.13.12/0.5.5/nscplugin_2.13.12-0.5.5.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:scalanative:positionRelativizationPaths:/home/barry/get-url/src/main/scala;/home/barry/get-url/src/main/scala-2.13;/home/barry/get-url/src/main/scala-2;/home/barry/get-url/src/main/java;/home/barry/get-url/target/scala-2.13/src_managed/main[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/barry/get-url/target/scala-2.13/classes:/home/barry/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12.jar:/home/barry/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-native/scalalib_native0.5_2.13/2.13.12%2B0.5.5/scalalib_native0.5_2.13-2.13.12%2B0.5.5.jar:/home/barry/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-native/nativelib_native0.5_2.13/0.5.5/nativelib_native0.5_2.13-0.5.5.jar:/home/barry/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-native/clib_native0.5_2.13/0.5.5/clib_native0.5_2.13-0.5.5.jar:/home/barry/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-native/posixlib_native0.5_2.13/0.5.5/posixlib_native0.5_2.13-0.5.5.jar:/home/barry/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-native/windowslib_native0.5_2.13/0.5.5/windowslib_native0.5_2.13-0.5.5.jar:/home/barry/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-native/javalib_native0.5_2.13/0.5.5/javalib_native0.5_2.13-0.5.5.jar:/home/barry/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-native/auxlib_native0.5_2.13/0.5.5/auxlib_native0.5_2.13-0.5.5.jar:/home/barry/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.12/scala-reflect-2.13.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 6.443346487 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mdone compiling[0m
