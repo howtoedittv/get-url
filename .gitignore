@@ -1,4 +1,3 @@
-# sbt / Scala
 target/
 project/target/
 .metals/
@@ -6,20 +5,16 @@ project/target/
 .idea/
 .vscode/
 
-# Compiled artifacts
 *.class
 *.o
 *.so
 *.a
 
-# Logs & temp
 *.log
 *.tmp
 
-# OS junk
 .DS_Store
 Thumbs.db
 
-# Editor swap files
 *~
 *.swp
