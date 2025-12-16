@@ -24,7 +24,7 @@ Install the required tools:
 Build and install the binary:
 
 ```bash
-make install
+sudo make install
 ```
 
 Once installed, you can run the command anywhere:
