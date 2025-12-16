@@ -1,75 +1,77 @@
-# get-url
+# 🎉 get-url 🚀
 
-Interactive Linux ISO downloader written in Scala.
+  ____       _   _   _ _ _ 
+ / ___|  ___| |_| | | | | |
+ \___ \ / _ \ __| | | | | |
+  ___) |  __/ |_| |_| | | |
+ |____/ \___|\__|\___/|_|_|
 
-get-url is a simple command-line tool that lets you search for Linux distributions and download their ISO images in parallel. All downloads are stored in ~/.iso.
 
-Features
-- Interactive search menu for Linux distributions
-- Parallel ISO downloads
-- Automatic ISO storage in ~/.iso
-- --clear option to wipe downloaded ISOs
-- Installable as a system command
-- Works across Linux distributions
+**Your friendly Linux ISO downloader** 🐧  
 
-Installation
+Tired of digging through websites for Linux ISOs? Meet `get-url` — your trusty sidekick for downloading Linux distributions quickly, easily, and in style.  
+Pick your favorite distro(s), watch them download in parallel, and relax while they land neatly in `~/.iso`. 💾  
 
-Install dependencies (run once):
-./getools
+---
 
-This installs required tools such as wget, clang, sbt, and git.
+## ✨ Features
 
-Build and install:
-make install
+- 🔍 **Interactive search menu** for Linux distributions  
+- ⚡ **Parallel downloads** — grab multiple ISOs at once  
+- 📁 **Automatic storage** in `~/.iso`  
+- 🧹 `--clear` option to wipe your downloads clean  
+- 📦 Install as a **system command** and run anywhere  
+- 🐧 Works on pretty much **every Linux distro**  
 
-This installs the command as:
+---
+
+## 🛠 Getting Started
+
+1️⃣ **Install required tools:**
+
+```bash
+./getools 🛠️
+
+2️⃣ Build and install:
+
+make install ✅
+
+3️⃣ Run it like a pro:
+
 get-url
 
-Usage
+🚀 Usage
 
 Interactive mode:
+
 get-url
 
-Clear downloaded ISOs:
-get-url --clear
+Pick your favorite distro(s), sit back, and watch the magic happen as ISOs download in parallel ⚡
 
-Download location
+Need to clear all downloaded ISOs?
 
-All ISO files are saved to:
+get-url --clear 🧹
+
+📂 Where the ISOs Go
+
+All files are stored safely in:
+
 ~/.iso
 
-Development
+No more messy downloads folder — everything is tidy and organized! 📦
+🐧 Included Distributions
 
-Build the native binary:
-sbt nativeLink
+Arch Linux · Debian · Ubuntu · Fedora (Workstation & KDE) · Gentoo · openSUSE · Void Linux · Kali Linux · elementary OS · EndeavourOS
 
-Clean up:
-make clean
+(Adding new distros is super easy!)
+💡 Why get-url Exists
 
-Supported distributions
+Downloading Linux ISOs should be fast, fun, and stress-free.
+get-url keeps it simple, friendly, and reliable — exactly the way it should be. ✨
+⭐ Contributing
 
-Includes popular distros such as:
-Arch Linux
-Debian
-Ubuntu
-Fedora (Workstation & KDE)
-Gentoo
-openSUSE
-Void Linux
-Kali Linux
-elementary OS
-EndeavourOS
-
-(The list is easily extendable.)
-
-License
+Found a bug? Got a cool idea? Want to add a distro?
+Pull requests and suggestions are always welcome! 🛠️
+📜 License
 
 MIT License © 2025 Barry
-
-Contributing
-
-Pull requests and improvements are welcome. Feel free to add more distributions or features.
-
-Why this exists
-
-Downloading Linux ISOs should be fast, simple, and distro-agnostic. get-url aims to be a small, no-nonsense tool that just works.
