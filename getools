@@ -31,7 +31,7 @@ elif command -v emerge &>/dev/null; then
 
 else
     echo "Unsupported Linux distribution."
-    echo "Please install Alacritty manually."
+    echo "Please install the tools manually."
     exit 1
 fi
 echo "done with tools now installing scala sbt and java 11"
