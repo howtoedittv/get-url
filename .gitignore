@@ -1,5 +1,25 @@
-*.class
-*.log
+# sbt / Scala
+target/
+project/target/
+.metals/
+.bloop/
+.idea/
+.vscode/
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# Compiled artifacts
+*.class
+*.o
+*.so
+*.a
+
+# Logs & temp
+*.log
+*.tmp
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor swap files
+*~
+*.swp
