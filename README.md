@@ -1,44 +1,45 @@
 # 🎉 get-url 🚀
 
-  ____       _   _   _ _ _ 
- / ___|  ___| |_| | | | | |
- \___ \ / _ \ __| | | | | |
-  ___) |  __/ |_| |_| | | |
- |____/ \___|\__|\___/|_|_|
+**Interactive Linux ISO Downloader for Professionals** 🐧
 
-
-**Your friendly Linux ISO downloader** 🐧  
-
-Tired of digging through websites for Linux ISOs? Meet `get-url` — your trusty sidekick for downloading Linux distributions quickly, easily, and in style.  
-Pick your favorite distro(s), watch them download in parallel, and relax while they land neatly in `~/.iso`. 💾  
+`get-url` is a command-line tool designed to simplify the process of downloading Linux distribution ISOs.  
+It provides an interactive search interface, supports parallel downloads, and stores all ISOs in a dedicated directory (`~/.iso`) for easy organization. 💾
 
 ---
 
-## ✨ Features
+## 📥 Getting Started
 
-- 🔍 **Interactive search menu** for Linux distributions  
-- ⚡ **Parallel downloads** — grab multiple ISOs at once  
-- 📁 **Automatic storage** in `~/.iso`  
-- 🧹 `--clear` option to wipe your downloads clean  
-- 📦 Install as a **system command** and run anywhere  
-- 🐧 Works on pretty much **every Linux distro**  
-
----
-
-## 🛠 Getting Started
-
-1️⃣ **Install required tools:**
+Clone the repository:
 
 ```bash
+git clone https://github.com/howtoedittv/get-url.git
+cd get-url
+
+Install the required tools:
+
 ./getools 🛠️
 
-2️⃣ Build and install:
+Build and install the binary:
 
 make install ✅
 
-3️⃣ Run it like a pro:
+Once installed, you can run the command anywhere:
 
 get-url
+
+✨ Features
+
+    🔍 Interactive search for Linux distributions
+
+    ⚡ Parallel ISO downloads for efficiency
+
+    📁 Automatic storage in ~/.iso
+
+    🧹 Clear downloads with --clear
+
+    📦 Install as a system-wide command
+
+    🐧 Compatible with most Linux distributions
 
 🚀 Usage
 
@@ -46,32 +47,32 @@ Interactive mode:
 
 get-url
 
-Pick your favorite distro(s), sit back, and watch the magic happen as ISOs download in parallel ⚡
+Select one or more distributions, and watch the ISOs download in parallel ⚡
 
-Need to clear all downloaded ISOs?
+Clear all downloaded ISOs:
 
 get-url --clear 🧹
 
-📂 Where the ISOs Go
+📂 Download Location
 
-All files are stored safely in:
+All downloaded ISO files are stored in:
 
 ~/.iso
 
-No more messy downloads folder — everything is tidy and organized! 📦
-🐧 Included Distributions
+This ensures a clean and organized workspace for all your Linux ISOs. 📦
+🐧 Supported Distributions
 
 Arch Linux · Debian · Ubuntu · Fedora (Workstation & KDE) · Gentoo · openSUSE · Void Linux · Kali Linux · elementary OS · EndeavourOS
 
-(Adding new distros is super easy!)
-💡 Why get-url Exists
+(Adding additional distributions is straightforward.)
+💡 Purpose
 
-Downloading Linux ISOs should be fast, fun, and stress-free.
-get-url keeps it simple, friendly, and reliable — exactly the way it should be. ✨
+get-url is intended to provide a fast, reliable, and user-friendly way to manage Linux ISO downloads.
+It reduces repetitive manual steps and streamlines ISO management for developers, sysadmins, and Linux enthusiasts. ✨
 ⭐ Contributing
 
-Found a bug? Got a cool idea? Want to add a distro?
-Pull requests and suggestions are always welcome! 🛠️
+Contributions are welcome!
+You can submit bug reports, suggest improvements, or add new distributions. 🛠️
 📜 License
 
-MIT License © 2025 Barry
+MIT License © 2025 howtoedittv
