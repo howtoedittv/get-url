@@ -40,7 +40,7 @@ get-url
 A **fully working Windows version** of **get-url** is also available.
 
 ### How to install on Windows:
- make sure you have a program that can handle 7z files
+make sure you have a program that can handle 7z files
 
 1. Go to the **Releases** page on GitHub
 2. Download the file:
@@ -54,9 +54,9 @@ get-url-win64.7z
 
 ```
 OpenJDK11U-jdk_x64.msi
-
-after that finishes installing you can run the get-url.exe file 
+ 
 ```
+after that finishes installing you can run the get-url.exe file
 ---
 
 ## ✨ Features
