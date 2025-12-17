@@ -131,8 +131,3 @@ You can:
 MIT License © 2025 **howtoedittv**
 
 ---
-
-## ℹ️ About
-
-**get-url** is an interactive Linux distribution ISO downloader written in Scala. It lets you search for distros, download multiple ISOs in parallel using `wget`, and manage downloads from a single command-line tool.
-
