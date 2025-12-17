@@ -45,7 +45,7 @@ A **fully working Windows version** of **get-url** is also available.
 2. Download the file:
 
 ```
-get-url-win64.zip
+get-url-win64.7z
 ```
 
 3. Extract the ZIP file
