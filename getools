@@ -4,7 +4,7 @@
 
 if command -v pacman &>/dev/null; then
     echo "Detected Arch-based system."
-    sudo pacman -Sy --needed base-devel gcc make clang llvm wget uznip curl 
+    sudo pacman -Sy --needed base-devel gcc make clang llvm wget unzip curl 
 
 elif command -v apt &>/dev/null; then
     echo "Detected Debian/Ubuntu-based system."
