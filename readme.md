@@ -52,17 +52,8 @@ get-url-win64.zip
 4. Run:
 
 ```
-installer.exe
+get-url.exe
 ```
-
-The installer will:
-- Install **get-url** to your system
-- Install **Java 11** if required
-- Bundle and use a real `wget.exe`
-- Create a **desktop shortcut**
-
-After installation, you can launch **get-url** directly from the desktop. ✅
-
 ---
 
 ## ✨ Features
