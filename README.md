@@ -1,12 +1,12 @@
-# 🎉 get-url 🚀
+# get-url 
 
-Interactive Linux ISO Downloader for Professionals 🐧
+Interactive Linux ISO Downloader written in scala
 
-**get-url** is a command-line tool designed to simplify the process of downloading Linux distribution ISOs. It provides an interactive search interface, supports parallel downloads, and stores all ISOs in a dedicated directory (`~/.iso`) for easy organization. 💾
+**get-url** is a command-line tool designed to simplify the process of downloading Linux distribution ISOs. It provides an interactive search interface, supports parallel downloads, and stores all ISOs in a dedicated directory (`~/.iso`) for easy organization. 
 
 ---
 
-## 📥 Getting Started (Linux)
+## Getting Started (Linux)
 
 Clone the repository:
 
@@ -35,7 +35,7 @@ get-url
 
 ---
 
-## 🪟 Windows Version
+## Windows Version
 
 A **fully working Windows version** of **get-url** is also available.
 
@@ -59,19 +59,19 @@ OpenJDK11U-jdk_x64.msi
 ---
 after that finishes installing you can run the get-url.exe file
 
-## ✨ Features
+## Features
 
-- 🔍 Interactive search for Linux distributions
-- ⚡ Parallel ISO downloads for efficiency
-- 📁 Automatic storage in `~/.iso`
-- 🧹 Clear downloads with `--clear`
-- 📦 Install as a system-wide command (Linux)
-- 🪟 Native Windows installer available
-- 🐧 Compatible with most Linux distributions
+- Interactive search for Linux distributions
+- Parallel ISO downloads for efficiency
+- Automatic storage in `~/.iso`
+- Clear downloads with `--clear`
+- Install as a system-wide command (Linux)
+- Native Windows installer available
+- Compatible with most Linux distributions
 
 ---
 
-## 🚀 Usage
+## Usage
 
 Interactive mode:
 
@@ -79,7 +79,7 @@ Interactive mode:
 get-url
 ```
 
-Select one or more distributions, and watch the ISOs download in parallel ⚡
+Select one or more distributions, and watch the ISOs download in parallel
 
 Clear all downloaded ISOs:
 
@@ -89,7 +89,7 @@ get-url --clear
 
 ---
 
-## 📂 Download Location
+## Download Location
 
 All downloaded ISO files are stored in:
 
@@ -97,11 +97,11 @@ All downloaded ISO files are stored in:
 ~/.iso
 ```
 
-This ensures a clean and organized workspace for all your Linux ISOs. 📦
+This ensures a clean and organized workspace for all your Linux ISOs.
 
 ---
 
-## 🐧 Supported Distributions
+## Supported Distributions
 
 Arch Linux · Debian · Ubuntu · Fedora (Workstation & KDE) · Gentoo · openSUSE · Void Linux · Kali Linux · elementary OS · EndeavourOS
 
@@ -109,15 +109,15 @@ Arch Linux · Debian · Ubuntu · Fedora (Workstation & KDE) · Gentoo · openSU
 
 ---
 
-## 💡 Purpose
+## Purpose
 
-**get-url** is intended to provide a fast, reliable, and user-friendly way to manage Linux ISO downloads. It reduces repetitive manual steps and streamlines ISO management for developers, sysadmins, and Linux enthusiasts. ✨
+**get-url** is intended to provide a fast, reliable, and user-friendly way to manage Linux ISO downloads. It reduces repetitive manual steps and streamlines ISO management for developers, sysadmins, and Linux enthusiasts.
 
 ---
 
-## ⭐ Contributing
+## Contributing
 
-Contributions are welcome! 🎉
+Contributions are welcome! :>
 
 You can:
 - Submit bug reports
